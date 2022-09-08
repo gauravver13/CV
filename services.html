@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <style>
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+            color: white;
+            font-family: 'Libre Bodoni', serif;
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            left: 30px;
+            top: 20px;
+            position: absolute;
+            
+        }
+        
+        .left img{
+            width: 60px;
+            filter: invert(100%);
+            text-align: center;
+            
+        }
+        .left div{
+            text-align: center;
+            float: inline-end;
+            font-size: 6px;
+            font-weight: bold;
+            line-height: 2px;
+        }
+        .mid{
+            /* border: 2px solid blue; */
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            top: 20px;
+            
+        }
+        
+        .right{
+            /* border: 2px solid green; */
+            display: inline-block;
+            right: 30px;
+            top: 20px;
+            position: absolute;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 25px 23px;
+            
+        }
+        .navbar li a:hover,.navbar li a.active{
+            color: rgb(110, 87, 57);
+            text-decoration: underline;
+            /* underline will be diminished later on  */
+            padding: 25px 23px;
+        }
+
+        .btn{
+            margin: 0 10px;
+            color: white;
+            background-color: black;
+            padding: 3px 4px;
+            border: 2px solid black;
+            border-radius: 7px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .btn:hover{
+            background-color: rgb(122, 106, 84);
+            border-color: rgb(87, 78, 67);
+            font-family: 'Libre Bodoni', serif; 
+          
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="./429d631659a11a9eb666b103d811470a.jpg" alt="logo">
+            <div>belly storm</div>
+        </div>
+        <div class="mid">
+            <!-- mid bar for navbar -->
+
+            <ul class="navbar">
+                <li><a href="home.html">Home</a> </li>
+                <li><a href="products.html">Products</a> </li>
+                <li><a href="services.html">Services</a> </li>
+                <li><a href="about us.html">About Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right bar for button(contact us) -->
+            <button class="btn">Connect Us</button>            
+            <button class="btn">email</button>            
+
+        </div>
+    </header>
+    
+</body>
+</html>

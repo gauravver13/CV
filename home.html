@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belly Storm </title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&family=Tapestry&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Square+Peg&family=Tapestry&display=swap" rel="stylesheet">
+    <style>
+        /* css reset  */
+    
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+            color: white;
+            font-family: 'Libre Bodoni', serif;
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            left: 30px;
+            top: 20px;
+            position: absolute;
+            
+        }
+        
+        .left img{
+            width: 60px;
+            filter: invert(100%);
+            text-align: center;
+            
+        }
+        .left div{
+            text-align: center;
+            float: inline-end;
+            font-size: 6px;
+            font-weight: bold;
+            line-height: 2px;
+        }
+        .mid{
+            /* border: 2px solid blue; */
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            top: 20px;
+            
+        }
+        
+        .right{
+            /* border: 2px solid green; */
+            display: inline-block;
+            right: 30px;
+            top: 20px;
+            position: absolute;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 25px 23px;
+            
+        }
+        .navbar li a:hover,.navbar li a.active{
+            color: rgb(110, 87, 57);
+            text-decoration: underline;
+            /* underline will be diminished later on  */
+            padding: 25px 23px;
+        }
+
+        .btn{
+            margin: 0 10px;
+            color: white;
+            background-color: black;
+            padding: 3px 4px;
+            border: 2px solid black;
+            border-radius: 7px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .btn:hover{
+            background-color: rgb(122, 106, 84);
+            border-color: rgb(87, 78, 67);
+            font-family: 'Libre Bodoni', serif; 
+          
+        }
+        .container{
+            /* border: 2px solid;  */
+            margin: 76px 94px;
+            padding: 35px 11px;
+            width: 40%;
+            border-radius: 18px;
+        }
+        .form{
+            border: white;
+            border: 2px solid;
+            margin: -73px 94px;
+            padding: 35px 11px;
+            width: 40%;
+            border-radius: 18px;
+            float: right;
+        }
+        .form-grp input,.form-grp select{ 
+            text-align: left;
+            display: block;
+            width: 300px;
+            padding: 4px 5px;
+            margin: 1px 50px;
+            font-size: 14px;
+            border: 2px solid beige;
+            border-radius: 5px;
+            background-color: rgb(246, 223, 193);
+        }
+        .form h1{
+            text-align:center;
+            width: 69%;
+        }
+        .form-grp button{
+            display: block;
+            width: 25%;
+            margin: 12px 51px;
+            padding: 4px 0px;
+            border-radius: 8px;
+        }
+        .add{
+            display: block;
+            margin-top: -40px;
+            margin-right: 80px;
+            float: right;
+
+        }
+        .quotes{
+            font-size: 40px;
+            width: 40%;
+            font-weight: bold;
+            display: block;
+            float: left;
+            margin: -20px 50px;
+            padding: 30px;
+            text-align: left;
+        }
+        .content{
+            display: block;
+            width: 33%;
+            text-align: left;
+            padding: 50px;
+            margin: 250px 50px;
+        }
+        .offer{
+            display: block;
+            font-size: 50px;
+            font-weight: bold;
+            float: right;
+            margin: 10px 180px;
+            padding: 50px 50px;
+            transition: color .1s ease-in-out .2s;
+        }
+        .offer:hover{
+        color: red;
+        
+
+        }
+        </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="./429d631659a11a9eb666b103d811470a.jpg" alt="logo">
+            <div>belly storm</div>
+        </div>
+        <div class="mid">
+            <!-- mid bar for navbar -->
+
+            <ul class="navbar">
+                <li><a href="home.html">Home</a> </li>
+                <li><a href="products.html">Products</a> </li>
+                <li><a href="services.html">Services</a> </li>
+                <li><a href="about us.html">About Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right bar for button(contact us) -->
+            <button class="btn">Connect Us</button>            
+            <button class="btn">email</button>            
+
+        </div>
+    </header>
+    <!-- some more work left by your side in header -->
+
+    <div class="container">
+        <h1>Dum_Bell,<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;  Fitness rang
+        </h1>
+    </div>
+    <div class="quotes">
+        We can give you much more than Others
+    </div>
+    <div class="add">
+        <img src="eswr.jpg" alt="">
+    </div>
+    
+</div>
+<div class="content">
+    <h2>Why to join us?</h2>
+    We provide flexible membership plans that suit your fitness needs and help to stay healthy.
+    we the best gym in your city, and we are serving in most of the cities building a national and international fitness trainers relations. we are totally relying on basics of human body and depends on science and helps you to achieve your fitness goals that how we work to serve you in a better way. &nbsp; Join us today and be the part of healthy india, healthy society.
+</div>
+<div class="offer">
+    Special Offer!! <br>
+    Hurry
+</div>
+
+</body>
+</html>

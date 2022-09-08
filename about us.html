@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(/anastase-maragos-9dzWZQWZMdE-unsplash.jpg);
+            color: white;
+            font-family: 'Libre Bodoni', serif;
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            left: 30px;
+            top: 20px;
+            position: absolute;
+            
+        }
+        
+        .left img{
+            width: 60px;
+            filter: invert(100%);
+            text-align: center;
+            
+        }
+        .left div{
+            text-align: center;
+            float: inline-end;
+            font-size: 6px;
+            font-weight: bold;
+            line-height: 2px;
+        }
+        .mid{
+            /* border: 2px solid blue; */
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+            top: 20px;
+            
+        }
+        
+        .right{
+            /* border: 2px solid green; */
+            display: inline-block;
+            right: 30px;
+            top: 20px;
+            position: absolute;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 25px 23px;
+            
+        }
+        .navbar li a:hover,.navbar li a.active{
+            color: rgb(110, 87, 57);
+            text-decoration: underline;
+            /* underline will be diminished later on  */
+            padding: 25px 23px;
+        }
+
+        .btn{
+            margin: 0 10px;
+            color: white;
+            background-color: black;
+            padding: 3px 4px;
+            border: 2px solid black;
+            border-radius: 7px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .btn:hover{
+            background-color: rgb(122, 106, 84);
+            border-color: rgb(87, 78, 67);
+            font-family: 'Libre Bodoni', serif; 
+          
+        }
+        .form{
+            border: white;
+            border: 2px solid;
+            margin: 136px 94px;
+            padding: 35px 11px;
+            width: 40%;
+            border-radius: 18px;
+            float: left;
+            top: 300px;
+        }
+        .form-grp input,.form-grp select{ 
+            text-align: left;
+            display: block;
+            width: 300px;
+            padding: 4px 5px;
+            margin: 1px 50px;
+            font-size: 14px;
+            border: 2px solid beige;
+            border-radius: 5px;
+            background-color: rgb(246, 223, 193);
+        }
+        .form h1{
+            text-align:center;
+            width: 69%;
+        }
+        .form-grp button{
+            display: block;
+            width: 25%;
+            margin: 12px 51px;
+            padding: 4px 0px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="./429d631659a11a9eb666b103d811470a.jpg" alt="logo">
+            <div>belly storm</div>
+        </div>
+        <div class="mid">
+            <!-- mid bar for navbar -->
+
+            <ul class="navbar">
+                <li><a href="home.html">Home</a> </li>
+                <li><a href="products.html">Products</a> </li>
+                <li><a href="services.html">Services</a> </li>
+                <li><a href="about us.html">About Us</a> </li>
+            </ul>
+        </div>
+        <div class="right">
+            <!-- right bar for button(contact us) -->
+            <button class="btn">Connect Us</button>            
+            <button class="btn">email</button>            
+
+        </div>
+    </header>
+
+    <div class="form">
+        <form action="noaction.php"></form>
+        <h1>We are here to serve you</h1>
+        <div class="form-grp"> Name:  <input type="text" placeholder="Enter your name" required>
+        </div>
+        <div class="form-grp"> Age:  <input type="number" placeholder="Enter your age" required>
+        </div>
+        <div class="form-grp">Contact:<input type="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-grp">Gender: <select name="gender">
+            <option value="M" selected>Male</option>
+            <option value="F">Female</option>
+            <option value="O">Others</option>
+        </select>
+        </div>
+       <div class="form-grp"> <button class="btn">Submit</button>
+       </div>
+    
+</body>
+</html>
